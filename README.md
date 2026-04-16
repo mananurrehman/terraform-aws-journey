@@ -6,8 +6,8 @@ A hands-on learning repository — progressing from a single EC2 instance to CI/
 
 | Lab | Topic | Key Concepts |
 |-----|-------|-------------|
-| [lab-01](./lab-01-first-ec2/) | First EC2 Instance | init, plan, apply, destroy, providers, state |
-| [lab-02](./lab-02-ec2-security-group/) | EC2 + Security Group | Resource dependencies, SG rules, tfvars |
+| [lab-01](./lab-01/) | First EC2 Instance | init, plan, apply, destroy, providers, state |
+| [lab-02](./lab-02/) | EC2 + Security Group | Resource dependencies, SG rules, tfvars |
 | lab-03 (coming soon) | Variables & Outputs | variables.tf, outputs.tf, reusability |
 | lab-04 (coming soon) | Custom VPC + Subnets | Networking, depends_on, resource references |
 | lab-05 (coming soon) | S3 + IAM | Bucket policies, IAM users, state deep dive |
