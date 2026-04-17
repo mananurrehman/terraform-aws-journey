@@ -1,0 +1,16 @@
+# ============================================================
+# terraform.tfvars.example
+# ============================================================
+# Copy this file to terraform.tfvars and fill in your values.
+#
+#   cp terraform.tfvars.example terraform.tfvars
+#
+# terraform.tfvars is in .gitignore so your values stay local.
+# NEVER commit terraform.tfvars if it contains secrets/keys.
+# ============================================================
+
+aws_region    = "us-east-1"
+instance_type = "t2.micro"
+ami_id        = "ami-0c02fb55956c7d316"
+sg_name       = "lab-02-web-sg"
+key_name      = "your-key-pair-name-here"   # <-- replace this
